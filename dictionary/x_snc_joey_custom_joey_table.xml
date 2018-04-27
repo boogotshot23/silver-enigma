@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Joey Table" max_length="40" name="x_snc_joey_custom_joey_table" type="collection">
+        <element display="true" label="Column 1" max_length="40" name="column_1" type="string"/>
+        <element choice="1" label="Column 2" max_length="40" name="column_2" type="choice">
+            <choice>
+                <element label="1" sequence="0" value="1"/>
+                <element label="2" sequence="1" value="2"/>
+                <element label="3" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Column 3" max_length="40" name="column_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="description" type="string"/>
+    </element>
+</database>
